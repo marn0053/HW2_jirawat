@@ -1,0 +1,45 @@
+.key{
+	width : 25px;
+	height : 25px;
+	border: 2px solid black;
+	border-radius: 5%;
+	text-align: center;
+	display: inline-block;
+	padding: 20px;
+	background-color: #ffffd9;
+	color:#000000;
+	font-size: 20px;
+	cursor:pointer;
+	margin-top: 1%;
+	font-family: "Times New Roman", Times, serif;
+}
+.board{
+	margin-top: 1%;
+	text-align: center;
+}
+.longKey{
+	width : 90px;
+}
+.veryLongKey{
+	width : 400px;
+}
+.key:hover{
+	border: 2px solid white;
+	background-color: #000000;
+	color:#ffffff;
+	box-shadow: 0px 0px 5px white;
+}
+body {
+	background-image: url("img/back.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fill;			
+}
+textarea{
+	font-size: 26px;
+	background-color: #ffffd9;
+	resize: none;
+	border-radius: 1%;
+	border: 5px solid black;
+	font-family: "Times New Roman", Times, serif;
+}

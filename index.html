@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<script src="index.js"></script>
+</head>
+<body onload="clear()">
+	<div class="board">
+		<textarea readonly id="display" rows="7" cols="70" ></textarea>
+	</div>
+	<div class="board">
+		<div>
+			<div class="key" onclick="normalKey('1')">1</div>
+			<div class="key" onclick="normalKey('2')">2</div>
+			<div class="key" onclick="normalKey('3')">3</div>
+			<div class="key" onclick="normalKey('4')">4</div>
+			<div class="key" onclick="normalKey('5')">5</div>
+			<div class="key" onclick="normalKey('6')">6</div>
+			<div class="key" onclick="normalKey('7')">7</div>
+			<div class="key" onclick="normalKey('8')">8</div>
+			<div class="key" onclick="normalKey('9')">9</div>
+			<div class="key" onclick="normalKey('0')">0</div>
+			<div class="key" onclick="normalKey('-')">-</div>
+			<div class="key" onclick="normalKey('=')">=</div>
+			<div class="key longKey" onclick="back()">Backspace</div><br>
+			<div class="key longKey" onclick="normalKey('\t')">Tap</div>
+			<div class="key" onclick="normalKey('q')">q</div>
+			<div class="key" onclick="normalKey('w')">w</div>
+			<div class="key" onclick="normalKey('e')">e</div>
+			<div class="key" onclick="normalKey('r')">r</div>
+			<div class="key" onclick="normalKey('t')">t</div>
+			<div class="key" onclick="normalKey('y')">y</div>
+			<div class="key" onclick="normalKey('u')">u</div>
+			<div class="key" onclick="normalKey('i')">i</div>
+			<div class="key" onclick="normalKey('o')">o</div>
+			<div class="key" onclick="normalKey('p')">p</div>
+			<div class="key" onclick="normalKey('[')">[</div>
+			<div class="key" onclick="normalKey(']')">]</div>
+			<div class="key" onclick="normalKey('\\')">\</div><br>
+			<div class="key" onclick="normalKey('a')">a</div>
+			<div class="key" onclick="normalKey('s')">s</div>
+			<div class="key" onclick="normalKey('d')">d</div>
+			<div class="key" onclick="normalKey('f')">f</div>
+			<div class="key" onclick="normalKey('g')">g</div>
+			<div class="key" onclick="normalKey('h')">h</div>
+			<div class="key" onclick="normalKey('j')">j</div>
+			<div class="key" onclick="normalKey('k')">k</div>
+			<div class="key" onclick="normalKey('l')">l</div>
+			<div class="key" onclick="normalKey(';')">;</div>
+			<div class="key" onclick="normalKey(this.innerHTML)">&#39</div>
+			<div class="key longKey" onclick="normalKey('\n')">Enter</div><br>
+			<div class="key" onclick="normalKey('z')">z</div>
+			<div class="key" onclick="normalKey('x')">x</div>
+			<div class="key" onclick="normalKey('c')">c</div>
+			<div class="key" onclick="normalKey('v')">v</div>
+			<div class="key" onclick="normalKey('b')">b</div>
+			<div class="key" onclick="normalKey('n')">n</div>
+			<div class="key" onclick="normalKey('m')">m</div>
+			<div class="key" onclick="normalKey(',')">,</div>
+			<div class="key" onclick="normalKey('.')">.</div>
+			<div class="key" onclick="normalKey('/')">/</div><br>
+			<div class="key veryLongKey" onclick="normalKey(' ')">Space Bar</div>
+		</div>
+	</div>
+</body>
+</html>
